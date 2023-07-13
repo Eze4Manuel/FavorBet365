@@ -133,7 +133,8 @@
 	.table-wrap{
 		overflow: auto;
 		.table-inner{
-			width: 1200px;
+			// width: 1200px;
+			width: 100%;
 		}
 	}
 }
@@ -152,6 +153,7 @@
 		overflow: auto;
 		.table-inner{
 			width: 1200px;
+			// width: 100%;
 		}
 	}
 	//virtual spots
@@ -176,12 +178,12 @@
 		text-align: center;
 		justify-content: center;
 		p{
-			font-size: 16px;
+			font-size: 13px;
 		}
 		.footer-link{
 			li{
 				a{
-					font-size: 16px;
+					font-size: 13px;
 					line-height: 25px;
 				}
 			}

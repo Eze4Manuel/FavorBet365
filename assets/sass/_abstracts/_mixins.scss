@@ -46,11 +46,11 @@
 	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
 }
 @mixin gradian-border{
-	background: linear-gradient(80.92deg, #81CD34 -7.62%, #00A182 105.55%);
+	background: linear-gradient(80.92deg, #12150e -7.62%, #3c3e97 105.55%);
 	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
 }
 @mixin gradian-50{
-	background: linear-gradient(80.92deg, #A77003 -7.62%, #ffc738 105.55%);
+	background: linear-gradient(80.92deg, #f6f6f6 -7.62%,  #000000 105.55% );
 	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
 	border-radius: 50%;
 }
@@ -60,17 +60,17 @@
 	border-radius: 5px;
 }
 @mixin gradian-hover{
-	background: linear-gradient(80.92deg, #81CD34 -7.62%, #00A182 105.55%);
+	background: linear-gradient(80.92deg, #12150e -7.62%, #3c3e97 105.55%);
 }
 @mixin gradian-text{
-	background: linear-gradient(80.92deg, #81CD34 -7.62%, #00A182 105.55%);
+	background: linear-gradient(80.92deg, #12150e -7.62%, #3c3e97 105.55%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	text-fill-color: transparent;
 }
 @mixin gradian-text-hover{
-	background: linear-gradient(80.92deg, #00A182 -7.62%, #81CD34 105.55%);
+	background: linear-gradient(80.92deg, #12150e -7.62%, #3c3e97 105.55%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;

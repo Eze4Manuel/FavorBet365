@@ -490,7 +490,7 @@
                     color: var(--point-color);
                 }
                 span{
-                    font-size: 20px;
+                    font-size: 14px;
                     line-height: 24px;
                     font-weight: 700;
                 }
@@ -641,7 +641,8 @@
                     padding: 20px 10px;
                     border-radius: 0 0 10px 10px;
                     .table-body-left{
-                        width: calc(100% - 55%);
+                        // width: calc(100% - 55%);
+                        width: fit-content;
                         @include flex;
                         justify-content: left;
                         gap: 20px;
@@ -668,7 +669,7 @@
                             }
                             .vs{
                                 font-weight: 700;
-                                font-size: 16px;
+                                font-size: 12px;
                                 line-height: 22px;
                             }
                         }
@@ -734,7 +735,7 @@
                             transition: all 0.3s;
                             border: 1px solid var(--left-menu);
                             .list{
-                                font-size: 15px;
+                                font-size: 12px;
                                 line-height: 10px;
                                 font-weight: 700;
                                 display: block;
@@ -743,7 +744,7 @@
                                 color: var(--point-color);
                             }
                             span{
-                                font-size: 13px;
+                                font-size: 11px;
                                 line-height: 24px;
                                 font-weight: 700;
                             }
@@ -757,7 +758,7 @@
                         }
                         .last-digit{
                             color: var(--point-last);
-                            font-size: 16px;
+                            font-size: 12px;
                             font-weight: 700;
                             line-height: 30px;
                             display: block;
@@ -809,12 +810,12 @@
             .icon{
                 margin-bottom: -7px; 
                 i{
-                    font-size: 55px;
+                    font-size: 25px;
                     color: var(--search-icon);
                 }
             }
             h5{
-                font-size: 20px;
+                font-size: 15px;
                 line-height: 24px;
                 font-weight: 700;
                 margin-bottom: -1px;  
@@ -828,6 +829,26 @@
 }
 // Main-body-tabbing End //
 
+// @media screen and (max-width: 600px) {
+//     .main-tabbing .match-table .table-wrap .table-inner .table-head .right-compo{
+//         margin-left: 20px!important;
+//     }
+//     .main-tabbing .match-table .table-wrap .table-inner .table-body .table-body-right{
+//         margin-left: 20px!important;
+//     }
+//     .main-tabbing .match-table .table-wrap .table-inner .table-body{
+//         justify-content: flex-start!important;
+//     }
+//     .main-tabbing .match-table .table-wrap .table-inner .table-head .right-compo {
+//         justify-content: space-around!important;
+//     }
+//     .main-tabbing .match-table .table-wrap .table-inner .table-head{
+//         justify-content: flex-start!important;
+//     }
+//     .main-tabbing .match-table .table-wrap .table-inner .table-head .left-compo span{
+//         font-size: 12px;
+//     }
+// }
 // countries Start //
 .calender-bar{
     position: relative;
