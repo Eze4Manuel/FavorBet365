@@ -1,5 +1,8 @@
 .banner-section{
     overflow: hidden;
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        padding: 0px;
+    }
 }
 .banner-items{
     background: url(../../assets/img/banner/banner.png) no-repeat;
@@ -17,6 +20,7 @@
         }
         .cmn--btn{
             margin-top: 25px;
+            font-size: 13px;
         }
     }
 }
